@@ -8,3 +8,4 @@ if age>=18:
         print("Drive slow")
 else:
     print("Wait till you turn 18")
+    
