@@ -1,0 +1,20 @@
+name="John Doe"
+print(name[0:4])
+print(name[5:8])
+print(name[:])
+print(name[::])
+
+print(name[:4])
+print(name[5:])
+print(name[0:8:2])
+print(name[::2])
+print(name[0:8:3])
+print(name[::3])
+
+print(name[::-1])
+print(name[0:-1])
+print(name[0:-2])
+print(name[-5:-2])
+print(name[-6:-1:1])
+print(name[-1:0:-1])
+print(name[-1:-(len(name)+1):-1])
