@@ -1,0 +1,45 @@
+budget=[100,75,200,150,100,250,50]
+print(budget.count(100))
+print(budget.count(200))
+print(budget.count(150))
+print(budget.count(300))
+print("////////////////////////////")
+print(budget.index(100))
+print(budget.index(150))
+# print(budget.index(300))      #value error : 300 not in list
+print("////////////////////////////")
+budget.remove(250)
+print(budget)
+# budget.remove(300)        # value error
+# budget.remove(400)        # value error
+print("////////////////////////////")
+print(budget.pop())
+print(budget)
+print(budget.pop(1))
+print("////////////////////////////")
+budget.sort()
+print(budget)
+print("////////////////////////////")
+budget.insert(2,250)
+print(budget)
+print("////////////////////////////")
+budget.append(300)
+print(budget)
+print("////////////////////////////")
+l1=[400,50,350]
+budget.extend(l1)
+print(budget)
+print("////////////////////////////")
+budget.append(l1)
+print(budget)
+print(budget[9])
+print(budget[9][0])
+print(budget[9][1])
+print(budget[9][1])
+print("////////////////////////////")
+l=[1,2,3]
+l2=[4,5,6]
+for i in l2:
+    l.append(i)
+print(l)
+print("////////////////////////////")
