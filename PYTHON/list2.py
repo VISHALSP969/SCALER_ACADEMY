@@ -1,0 +1,17 @@
+l=[1,2,3,4,5,6,7,8,9]
+print(l)
+print(len(l))
+print(l[::])
+print(l[::2])
+print(l[::3])
+print(l[:5])
+print(l[2:])
+print(l[2:5])
+print(l[2:7])
+print(l[2:7:2])
+print(l[2:7:3])
+
+print(l[::-1])
+print(l[-5:-1])
+print(l[-1:-6:-1])
+print(l[-6:-1:1])
