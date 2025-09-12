@@ -1,0 +1,9 @@
+l=[2,"Welcome",2.5,3,True]
+print(type(l))
+print(l[0])
+print(l[1])
+print(l[1][0])
+print(l[1][1])
+print(l[2])
+print(l[3])
+print(l[4])
