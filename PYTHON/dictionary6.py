@@ -1,0 +1,24 @@
+fruits={
+    "Apple":120,
+    "Mango":100,
+    "Pineapple":80,
+    "Guava":90,
+    "Orange":110
+}
+print(fruits)
+print(fruits.keys())
+print(fruits.values())
+print(fruits.items())
+fruit=fruits.get("Apple")
+print(fruit)
+fruit=fruits.pop("Orange")
+print(fruit)
+print(fruits)
+fruit=fruits.popitem()
+print(fruit)
+print(fruits)
+f={"Kiwi":200,"Dragon fruit":180}
+fruits.update(f)
+print(fruits)
+fruits.clear()
+print(fruits)
